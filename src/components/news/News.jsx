@@ -43,7 +43,6 @@ export function News({ articleId, total  }) {
       <p>Sæki gögn...</p>
     );
   }
-  console.log(total ? s.category : null);
   return(
     <div className={!total ? s.category : null}>
       <div className={!total ? s.articles : null}>

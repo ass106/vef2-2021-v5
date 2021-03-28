@@ -39,7 +39,6 @@ export function NewsList() {
   }
 
   if (error) {
-    console.log(headlines);
     return (
       <p>Villa kom upp: {error}</p>
     );
