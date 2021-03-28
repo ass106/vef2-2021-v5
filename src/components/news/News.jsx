@@ -15,7 +15,7 @@ export function News({ articleId, total  }) {
       setLoading(true);
       setError(null);
       let json;
-      const url = `${apiUrl}/${articleId}`
+      const url = `${apiUrl}${articleId}`
       try {
         const result = await fetch(url);
         if (!result.ok) {
